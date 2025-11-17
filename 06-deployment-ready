@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deployed!</title>
+  <style>
+    body{background:#2c3e50;color:white;text-align:center;padding-top:15%}
+    h1{font-size:70px}
+    .emoji{font-size:100px}
+  </style>
+</head>
+<body>
+  <div class="emoji">Well done!</div>
+  <h1>Project Live Ho Gaya!</h1>
+  <p>Ab GitHub pe daal do ya Netlify pe drag-drop kar do</p>
+  <p>Link: <a href="#" style="color:#1abc9c">https://yourname.netlify.app</a></p>
+</body>
+</html>
