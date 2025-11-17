@@ -21,5 +21,5 @@ craft-store-6-projects/
 ├── 06-live-deployment/
 │   └── index.html
 │
-├── README.md                 ← Sabse important (niche diya hai)
-└── .gitignore                ← (optional - node_modules etc)
+├── README.md                 
+└── .gitignore               
