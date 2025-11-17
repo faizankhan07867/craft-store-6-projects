@@ -30,7 +30,7 @@ craft-store-6-projects/
 
 A complete handmade craft store built with **pure HTML, CSS & JavaScript** – 6 mini-projects in one repo!
 
-Live Demo → https://tumharausername.github.io/craft-store-6-projects/ (after deploy)
+Live Demo → https://faizankhan07867.github.io/craft-store-6-projects/ 
 
 ## 6 Projects Completed
 
@@ -58,4 +58,4 @@ Live Demo → https://tumharausername.github.io/craft-store-6-projects/ (after d
 2. Go to Settings → Pages → Source: Deploy from root → Save
 3. Your site will be live in 60 seconds!
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Faizan Khan]
