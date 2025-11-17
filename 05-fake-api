@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Load Products from JSON</title>
+  <style>
+    body{font-family:Arial;text-align:center;padding:50px;background:#fff3e0}
+    .card{display:inline-block;margin:15px;padding:20px;background:white;border-radius:15px;width:200px}
+  </style>
+</head>
+<body>
+  <h1>Products from Fake API</h1>
+  <div id="products"></div>
+
+  <script>
+    fetch('https://jsonplaceholder.typicode.com/photos?_limit=6')
+      .then(res => res.json())
+      .then(data => {
+        data.forEach(p => {
+          document.getElementById('products').innerHTML += 
+            `<div class="card">
+              <img src="${p.thumbnailUrl}" style="border-radius:10px">
+              <h3>Product ${p.id}</h3>
+              <p>₹${Math.floor(Math.random()*500)+200}</p>
+            </div>`;
+        });
+      });
+  </script>
+</body>
+</html>
