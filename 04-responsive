@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Test</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:Arial;background:#ffcc80}
+    .container{max-width:1200px;margin:auto;padding:20px}
+    .box{background:white;margin:20px 0;padding:30px;border-radius:15px;box-shadow:0 5px 15px rgba(0,0,0,0.1)}
+    @media(max-width:600px){.box{font-size:18px;padding:20px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="text-align:center;color:#d84315">Responsive Page</h1>
+    <div class="box">This box changes size on mobile!</div>
+    <div class="box">Try resizing browser or open on phone</div>
+    <div class="box">Fully responsive using simple media query</div>
+  </div>
+</body>
+</html>
